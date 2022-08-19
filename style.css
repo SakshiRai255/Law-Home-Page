@@ -1,0 +1,98 @@
+/*------ CSS Reset---------- */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* ---------Navbar-Section ----------*/
+
+#navbar {
+  display: flex;
+  background-color:#383C29;
+  justify-content: space-around;
+  height: 50vh;
+}
+#navbar .logo {
+  position: absolute;
+  left: 5vw;
+  top: 3vh;
+  width: 110px;
+  height: 40px;
+}
+/* ----------Menu-List---------- */
+
+#menu-list {
+  position: absolute;
+  left: 38vw;
+  top: 3vh;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+#menu-list .list-item {
+  margin: 10px 25px;
+}
+#menu-list .list-item a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  color: rgb(160, 163, 165);
+}
+#menu-list .list-item a.active {
+  color: whitesmoke;
+  font-weight: bold;
+}
+#button {
+  position: absolute;
+  left: 80vw;
+  top: 3vh;
+}
+#button .btn {
+  border: 2px solid #a77b06;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 8px 25px;
+  color: #a77b06;
+  background-color: transparent;
+}
+/* ----------Justice-Heading-Section-----------*/
+
+.justice-heading {
+  position: absolute;
+  top: 18vh;
+  left: 3vw;
+  width: 45vw;
+  height: 30vh;
+}
+.justice-heading h1 {
+  font-size: 65px;
+  color: whitesmoke;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 2px;
+  padding: 5px 20px;
+}
+/* ----------Paragraph-line-Section ---------------*/
+
+.paragraph-line {
+  position: absolute;
+  top: 18vh;
+  left: 55vw;
+  height: 30vh;
+  width: 35vw;
+  color: #cad5e2;
+}
+.paragraph-line p {
+  margin-top: 15px;
+  font-size: 22px;
+  padding: 10px 20px;
+  font-family: "Nunito", sans-serif;
+  color: rgb(224, 221, 248);
+}
+/*---------------Judgephoto-Section ----------*/
+
+.judgephoto {
+  height: 53vh;
+}
+.judgephoto img {
+  width: 100%;
+  height: 336px;
+}
