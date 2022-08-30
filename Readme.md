@@ -6,5 +6,6 @@
 - HTML
 - CSS
 ---
+##  [Deployed link](https://my-law-home-page.netlify.app/)
 
 ![Image](img/Screenshot%20(357).png)
